@@ -74,6 +74,7 @@ def create_project(disp_text, project_link, github_link, video_loc):
             st.markdown("Wanna check out the project? - [link]({})<br>Don't forget to glance at the code - [Github Link]({})".format(project_link,github_link), unsafe_allow_html=True)
             st.markdown("---")
 
+
 def education(image_loc, name, string):
     with st.container():
         left,right = st.columns((0.3,0.7))
